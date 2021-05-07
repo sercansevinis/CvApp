@@ -1,0 +1,7 @@
+INSERT INTO applicant(usrname,email,pass) VALUES('Sercan','sercansevinis@gmail.com','1234');
+INSERT INTO applicant(usrname,email,pass) VALUES('Bilge','bilgecoskun@gmail.com','1234');
+
+INSERT INTO admin(usrname,email,pass) VALUES('Sercan','sercansevinis@gmail.com','12');
+
+INSERT INTO cv(fname,cvLang,applicantid,email,address,dob,gender,nation,school,gpa,skill,projects) VALUES('Sercan','Turkish',1,'sercansevinis@gmail.com','Yildiz/Besiktas',parsedatetime('25-01-1999', 'dd-MM-yyyy'),'Erkek','Türk','Bahcesehir Universitesi Yazılım Mühendisligi and Bilgisayar Mühendisligi 3.Sınıf',3.71,'C#,Java,C++,Python','Java programlama dili ile oluşturulmuş, Putty uygulaması ve SSH bağlantısı aracılığı ile database ile iletişim kurup kullanıcının gireceği kriterlere göre gerekli bilgileri getiren bir GUI Telnet uygulaması');
+INSERT INTO cv(fname,cvLang,applicantid,email,address,dob,gender,nation,school,gpa,skill,projects) VALUES('Sercan','English',1,'sercansevinis@gmail.com','Yildiz/Besiktas',parsedatetime('25-01-1999', 'dd-MM-yyyy'),'Male','Turkish','Bahcesehir University Software Engineering and Computer Engineering 3rd Year',3.71,'C#,Java,C++,Python','A Telnet Application Java-SSH Connection with Putty to Retrieve Data and Log from A Database (Internship Project) ');                     
